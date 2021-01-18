@@ -1,6 +1,6 @@
 # Smasher this is just for CTF 
 ## Usage !!
-Enjoy how until CTF is active
+Enjoy until CTF is active
 
 ```
 chmod +x ROP_Tiny.py
